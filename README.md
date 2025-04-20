@@ -1,14 +1,11 @@
 # HonKit Light Parsers
 
-[![NPM version](https://badge.fury.io/js/%40honkit%2Flight-parsers.svg)](http://badge.fury.io/js/%40honkit%2Flight-parsers) [![Build Status](https://travis-ci.org/honkit/honkit-light-parsers.png?branch=master)](https://travis-ci.org/honkit/honkit-light-parsers)
-
 This node module unify the interface to use parsers. It's a light (simplified) implementation of parsers for HonKit:
 
-| Parser | Version | Tests |
-| ------ | ------- | ----- |
-| [Markdown](https://github.com/GitbookIO/gitbook-markdown) | [![NPM version](https://badge.fury.io/js/gitbook-markdown.svg)](http://badge.fury.io/js/gitbook-markdown) | [![Build Status](https://travis-ci.org/GitbookIO/gitbook-markdown.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook-markdown) |
-| [AsciiDoc](https://github.com/GitbookIO/gitbook-asciidoc) | [![NPM version](https://badge.fury.io/js/gitbook-asciidoc.svg)](http://badge.fury.io/js/gitbook-asciidoc) | [![Build Status](https://travis-ci.org/GitbookIO/gitbook-asciidoc.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook-asciidoc) |
-| [reStructuredText](https://github.com/GitbookIO/gitbook-restructuredtext) | [![NPM version](https://badge.fury.io/js/gitbook-restructuredtext.svg)](http://badge.fury.io/js/gitbook-restructuredtext) | [![Build Status](https://travis-ci.org/GitbookIO/gitbook-restructuredtext.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook-restructuredtext) |
+| Parser | Repository |
+| ------ | ---------- |
+| Markdown | [honkit/markdown-legacy](https://github.com/honkit/honkit/tree/master/packages/%40honkit/markdown-legacy) |
+| AsciiDoc | [honkit/asciidoc](https://github.com/honkit/honkit/tree/master/packages/%40honkit/asciidoc) |
 
 
 ### How to use it?
