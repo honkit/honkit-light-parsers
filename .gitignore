@@ -28,5 +28,5 @@ node_modules
 *.swp
 
 # Client versions
-gitbook-parsers.js
-gitbook-parsers.min.js
+@honkit-light-parsers.js
+@honkit-light-parsers.min.js

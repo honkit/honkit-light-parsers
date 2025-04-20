@@ -1,8 +1,8 @@
 {
-    "name": "gitbook-parsers",
+    "name": "@honkit/light-parsers",
     "version": "0.4.3",
-    "homepage": "https://www.gitbook.com",
-    "description": "Includes GitBook parsers and normalize output",
+    "homepage": "https://honkit.github.io",
+    "description": "Includes HonKit light parsers (simplified implementation) and normalize output",
     "main": "lib/index.js",
     "dependencies": {
         "q": "^1.1.2",
@@ -21,12 +21,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/gitbook-parsers.git"
+        "url": "https://github.com/honkit/honkit-light-parsers.git"
     },
     "author": "FriendCode Inc. <contact@gitbook.com>",
     "license": "Apache 2",
     "bugs": {
-        "url": "https://github.com/GitbookIO/gitbook-parsers/issues"
+        "url": "https://github.com/honkit/honkit-light-parsers/issues"
     },
     "contributors": [
         {
