@@ -20,7 +20,10 @@ This module can be used in **node.js** and in the **browser**
 Include the file:
 
 ```
-<script src="library/gitbook-parsers.min.js" />
+<script type="module">
+  import honkitParsers from './@honkit-light-parsers.js';
+  // Use honkitParsers here
+</script>
 ```
 
 ##### In Node.js:
@@ -32,7 +35,7 @@ npm install @honkit/light-parsers
 Then include it using:
 
 ```js
-var honkitParsers = require("@honkit/light-parsers");
+import honkitParsers from '@honkit/light-parsers';
 ```
 
 ##### Get a parser for a file:
