@@ -12,7 +12,7 @@ module.exports = function (grunt) {
         browserify: {
             dist: {
                 files: {
-                    'gitbook-parsers.js': [
+                    '@honkit-light-parsers.js': [
                         './lib/index.js'
                     ],
                 },
@@ -22,7 +22,7 @@ module.exports = function (grunt) {
                         return next(null, '(function () { var define = undefined; '+src+'; })();')
                     },
                     browserifyOptions: {
-                        'standalone': "gitbookParsers"
+                        'standalone': "honkitLightParsers"
                     },
                     "transform": [
                         "browserify-swap"
@@ -33,7 +33,7 @@ module.exports = function (grunt) {
         uglify: {
             dist: {
                 files: {
-                    'gitbook-parsers.min.js': ['gitbook-parsers.js']
+                    '@honkit-light-parsers.min.js': ['@honkit-light-parsers.js']
                 }
             }
         }

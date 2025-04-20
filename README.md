@@ -1,8 +1,8 @@
-# GitBook Parsers
+# HonKit Light Parsers
 
-[![NPM version](https://badge.fury.io/js/gitbook-parsers.svg)](http://badge.fury.io/js/gitbook-parsers) [![Build Status](https://travis-ci.org/GitbookIO/gitbook-parsers.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook-parsers)
+[![NPM version](https://badge.fury.io/js/%40honkit%2Flight-parsers.svg)](http://badge.fury.io/js/%40honkit%2Flight-parsers) [![Build Status](https://travis-ci.org/honkit/honkit-light-parsers.png?branch=master)](https://travis-ci.org/honkit/honkit-light-parsers)
 
-This node module unify the interface to use parsers:
+This node module unify the interface to use parsers. It's a light (simplified) implementation of parsers for HonKit:
 
 | Parser | Version | Tests |
 | ------ | ------- | ----- |
@@ -26,13 +26,13 @@ Include the file:
 ##### In Node.js:
 
 ```
-npm install gitbook-parsers
+npm install @honkit/light-parsers
 ```
 
 Then include it using:
 
 ```js
-var gitbookParsers = require("gitbook-parsers");
+var honkitParsers = require("@honkit/light-parsers");
 ```
 
 ##### Get a parser for a file:
