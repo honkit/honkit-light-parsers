@@ -13,26 +13,18 @@ This node module unify the interface to use parsers. It's a light (simplified) i
 
 ### How to use it?
 
-This module can be used in **node.js** and in the **browser**
+This module can be used in **node.js**
 
-##### In the Browser:
-
-Include the file:
-
-```
-<script src="library/gitbook-parsers.min.js" />
-```
-
-##### In Node.js:
+### Installation
 
 ```
 npm install @honkit/light-parsers
 ```
 
-Then include it using:
+### Usage
 
 ```js
-var honkitParsers = require("@honkit/light-parsers");
+import honkitParsers from '@honkit/light-parsers';
 ```
 
 ##### Get a parser for a file:
