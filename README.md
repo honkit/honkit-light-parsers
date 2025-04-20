@@ -17,11 +17,11 @@ This module can be used in **node.js** and in the **browser**
 
 ##### In the Browser:
 
-Include the file:
+Import the module directly:
 
 ```
 <script type="module">
-  import honkitParsers from './@honkit-light-parsers.js';
+  import honkitParsers from '@honkit/light-parsers';
   // Use honkitParsers here
 </script>
 ```
