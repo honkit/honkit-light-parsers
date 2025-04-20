@@ -21,6 +21,10 @@
     },
     "author": "FriendCode Inc. <contact@gitbook.com>",
     "license": "Apache 2",
+    "files": [
+        "lib",
+        "README.md"
+    ],
     "bugs": {
         "url": "https://github.com/honkit/honkit-light-parsers/issues"
     },
