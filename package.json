@@ -35,9 +35,7 @@
             "email": "samy@gitbook.com"
         }
     ],
-    "browser": {
-        "gitbook-restructuredtext": false
-    },
+
     "scripts": {
         "test": "mocha --node-option=experimental-vm-modules"
     }

@@ -13,26 +13,15 @@ This node module unify the interface to use parsers. It's a light (simplified) i
 
 ### How to use it?
 
-This module can be used in **node.js** and in the **browser**
+This module can be used in **node.js**
 
-##### In the Browser:
-
-Import the module directly:
-
-```
-<script type="module">
-  import honkitParsers from '@honkit/light-parsers';
-  // Use honkitParsers here
-</script>
-```
-
-##### In Node.js:
+### Installation
 
 ```
 npm install @honkit/light-parsers
 ```
 
-Then include it using:
+### Usage
 
 ```js
 import honkitParsers from '@honkit/light-parsers';
