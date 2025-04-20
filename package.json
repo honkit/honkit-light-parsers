@@ -1,6 +1,6 @@
 {
     "name": "@honkit/light-parsers",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://honkit.github.io",
     "description": "Includes HonKit light parsers (simplified implementation) and normalize output",
     "type": "module",
