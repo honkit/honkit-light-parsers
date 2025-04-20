@@ -9,9 +9,8 @@
         "import": "./lib/index.js"
     },
     "dependencies": {
-        "gitbook-markdown": "0.2.4",
-        "gitbook-asciidoc": "0.2.2",
-        "gitbook-restructuredtext": "0.2.2"
+        "@honkit/markdown-legacy": "6.0.2",
+        "@honkit/asciidoc": "6.0.2"
     },
     "devDependencies": {
         "mocha": "^10.2.0"
